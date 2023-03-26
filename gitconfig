@@ -1,0 +1,7 @@
+[user]
+	email = gull.ahmed@10xengineers.ai
+	name = gullahmed1
+[alias]
+  graph = log --all --graph --decorate 
+
+
