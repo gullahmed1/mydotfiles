@@ -1,0 +1,1287 @@
+git log
+git add touchegg.conf ; git commit -m "Add touchegg file" ; git push
+git add touchegg ; git commit -m "Add touchegg file" ; git push
+bash
+git add gitconfig ; git commit -m "Add gitconfig file" ; git push
+cp ~/.gitconfig gitconfig
+git add vimrc ; git commit -m "Add vimrc file" ; git push
+cp ~/.vimrc vimrc
+git add bashrc ; git commit -m "Add bashrc file" ; git push
+ls
+cp ~/.bashrc bashrc
+cd mydotfiles/
+git clone https://github.com/gullahmed1/mydotfiles.git
+y
+rm -r mydotfiles/
+rmdir -r mydotfiles/
+rmdir mydotfiles/
+cd ~
+git push --set-upstream origin main
+git push
+git pusj
+ln -s ~/.bashrc ~/practice/mydotfiles/bashrc
+ln -s ~/.bashrc ~/bashrc
+ls -la
+git log |less
+git filter-repo --path-rename duplicate:
+cd CV32E40P-Wrapper
+git clone https://github.com/gullahmed1/CV32E40P-Wrapper.git
+cd ~/ && rm -r CV32E40P-Wrapper
+cp duplicate cv3240p_wrapper
+git filter-repo --path duplicate --force
+git filter-repo --path duplicate
+git commit -m "adding large file to remove it later even from history"
+git status
+git add duplicate
+cp cv32e40p_wrapper.sv duplicate
+git filter-repo . patents.txt
+git filter-repo patents.txt
+pip install git-filter-repo
+git commit -m "Commiting all dot files"
+git add .
+cd ~/practice/mydotfiles/
+cp -r .* ~/practice/mydotfiles/
+cd practice/
+git push -u origin main
+git branch -M main
+git remote add origin https://github.com/gullahmed1/mydotfiles.git
+ls -l
+cp -r .* mydotfiles/
+cp .* mydotfiles/
+git push --force
+git graph
+git gc --aggressive --prune=now
+git filter-branch --tree-filter 'rm -f patents.txt' HEAD
+git filter-branch --tree-filter 'rm -f patents.txt' head
+git commit -m "removing large file"
+rm patents.txt
+git commit -m "Adding large file"
+git add patents.txt
+git commit -m "Changing Readme"
+git add README.md
+gedit patents.txt
+touch patents.txt
+cd CV32E40P-Wrapper/
+cp -r patents.txt CV32E40P-Wrapper/
+cp patents.txt CV32E40P-Wrapper/
+cd Matlab/
+vim ~/.gitconfig
+git stash list
+git stash pop
+git log --all --oneline
+git stash
+echo "Learning Git" >> README.md
+git stash save "Message describing the changes"
+java -jar bfg.jar --strip-blobs-bigger-than 9kB CV32E40P-Wrapper.git/
+git clone --mirror https://github.com/gullahmed1/CV32E40P-Wrapper.git
+git log --all --graph --decorate
+git commit -m "Add new feature"
+echo "# git" >> README.md
+dc CV32E40P-Wrapper/
+git remote set-url origin https://gullahmed1@github.com/user/CV32E40P-Wrapper.git
+git remote set-url origin https://github.com/gullahmed1/CV32E40P-Wrapper.git
+git remote set-url origin https://gullahmed1@github.com/user/git.git
+git remote set-url origin https://gullahmed1@github.com/user/repo.git
+cd github/
+git github/
+vim config
+cd .git/
+ls -a
+git remote add origin https://github.com/gullahmed1/git.git
+git commit -m "first commit"
+git init
+git commit
+git commit hi.txt
+git commit .
+echo i am gull >hi.txt
+mkdir github
+git log --all --graph --decorate show
+git show
+git log --all
+git -log
+cd missing-semester/
+git clone https://github.com/missing-semester/missing-semester.git
+vim ~/.bashrc
+make
+cd core/
+la
+cd sim/
+cd cv32e40p/
+cd core-v-verif/
+gtkwave verilator_tb.vcd
+cd
+cd core-v-verif/cv32e40p/sim/core/ && make
+cd~
+Makefile
+cd Makefile
+cd /
+cd opt/
+cd google/
+cd core-v-verif/cv32e40p/sim/core/
+cd -
+cd tb/core/
+cd ..
+make clean
+cd tb/
+cat requirements.txt
+cd bin
+cd core-v-verif
+git clone https://github.com/openhwgroup/core-v-verif.git
+cd demo4year/
+mkdir demo4year
+cd core-v-verif/cv32e40p/sim/core/ && make veri-test TEST=fibonacci
+iverilog -o probelm2 barrel_shifter.sv testbench.sv
+make veri-test TEST=fibonacci
+shutdown
+ps -e
+killall setting
+killall settings
+killall chrome
+kill -9 55874
+kill -9 55857
+ps -e |less
+killall Google-chrome
+killall google-chrome
+pstree | grep google-chrome
+pstree aux | grep google-chrome
+ps aux | grep google-chrome
+ps aux | grep google
+pidof google-chrome
+iverilog -o lab24 cpu.v cpu_test.v
+man iverilog
+help iverilog
+vvp lab24
+iverilog -o lab24 cpu.v
+vvp lab23
+iverilog -o lab23 rcvr.v rcvr_test.v
+vim rcvr_test.v
+cd lab23-rcvr/
+gtkwave cv32e40p_core_IO.gtkw
+gtkwave cv32e40p_core_IO.fst.gtkw
+make unit-test-gui
+make unit-test-gui simulator =verilator
+gedit Makefile
+xdg-open Makefile
+vim Makefile
+make Makefile
+tree -f | grep  test.yaml
+tree | grep  test.yaml
+tree
+find . -name {*.yaml}
+find . -name *.yaml
+tldr find
+find . -file test.yaml
+find . -name test.yaml
+cd verilator_basics/
+gtkwave dump.vcd
+vvp dump.vvp
+vvp lab22.vvp
+iverilog -o lab22.vvp dkm.v test.v
+xdg-open verilog_lab_manual\ \(1\).pdf
+vim test.v
+cd lab22-dkm/
+vim  ~/.config/touchegg/touchegg.conf
+vim  /usr/include/X11/XF86keysym.h
+cd ../lab22-dkm/
+script-driven-tests-95/
+vimtutor
+gedit test.v
+cd lab20-lock/
+vim dkm.v
+cat dkm.v -less
+cat -less dkm.v
+cat dkm.v
+iverilog -o lab22 test.v
+iverilog -o test.v
+iverilog -o test.v dkm.v
+iverilog -o dkm.v test.v
+iverilog -o lab22 dkm.v test.v
+iverilog -o lab22 test.v dkm.v
+verilator -Wall --trace -cc test.v
+rm test.vvp
+vvp test.vvp
+iverilog -o test.vvp test.v
+rm a.out
+vvp a.out
+iverilog test.v
+gtkwave waveform.vcd
+./obj_dir/Valu
+gedit tb_alu.cpp
+make -C obj_dir -f Valu.mk Valu
+cp -r verilator_basics ~
+cp verilator_basics ~
+verilator -Wall --trace -cc alu.sv --exe tb_alu.cpp
+verilator -wall --trace -cc alu.sv --exe tb_alu.cpp
+cd obj_dir/
+verilator --cc alu.sv
+git clone https://github.com/n-kremeris/verilator_basics
+verilator --version
+gcc --version
+gtkwave
+make --version
+exit
+ecit
+vvp lab19
+iverilog -o lab19 rcvr.v rcvr_test.v
+rm 1
+rm rcvr2.v
+vim rcvr2.v
+vim rcvr.v
+mv rcvr1.v rcvr.v
+cp rcvr.v rcvr2.v
+vim rcvr1.v
+xdg-open rcvr.v
+cp rcvr.v rcvr1.v
+tmux
+./Vmultiplexor
+make -j -f Vmultiplexor.mk Vmultiplexor
+verilator -Wall multiplexor.v multiplexor_test.v --cc
+vim multiplexor_test.v
+vvp lab4
+iverilog -o lab4 multiplexor.v multiplexor_test.v
+cd lab19-rcvr/
+vvp lab15
+iverilog -o lab15 rcvr.v rcvr_test.v
+gedit rcvr.v
+cd lab15-fsm/
+cd Verilog\ Lab\ Files/
+open rcvr.v
+xdg-open docs-openhwgroup-org-cv32e40p-user-manual-en-latest.pdf
+cd Downloads/
+xdg-open .
+rm rcvr.v
+iverilog -o rcvr.v rcvr_test.v
+sudo apt install genus
+sudo apt-get install genus
+genus -f genus_shell.tcl
+iverilog -s rc_shell.tcl
+iverilog -f rc_shell.tcl
+rc -f rc_shell.tcl
+rc -files rc_shell.tcl
+sudo apt-get install rc
+vvp lab13
+iverilog -o lab13 mux.v mux_test.v
+iverilog -s mux.v mux_test.v
+iverilog -o mux.v mux_test.v
+cd lab13-muxsynth/
+cd ../solutions
+ls -a | grep solutions
+vim files.txt
+iverilog -ffiles.txt
+iverilog -f files.txt
+iverilog -f lab12 files.txt
+vim risc_test.v
+iverilog -o lab12 risc.v risc_test.v
+iverilog -o lab12 risc.v risc_test.v CPUtest1.txt CPUtest2.txt CPUtest3.txt
+iverilog -o lab12 risc.v risc_test.v CPUtest1.txt CPUtest2.txt CPUtest3.txt restore.tcl
+iverilog -o lab12 risc.v risc_test.v files.txt CPUtest1.txt CPUtest2.txt CPUtest3.txt restore.tcl
+cat restore.tcls
+cat restore.tcl
+cd lab12-risc/
+vim memory_test.v
+vvp lab11
+iverilog -o lab11 memory.v memory_test.v
+cd ../lab11-task/ && gedit memory_test.v
+cd ../lab9-mem/
+cd ../lab11-func/ && gedit counter_test.v
+vim memory.v
+cd ../lab11-task/ && gedit memory.v
+cd ../lab11-task/
+vim counter.v
+iverilog -o lab11 counter.v counter_test.v
+vim counter_test.v
+cd ../lab11-func/ && gedit counter.v
+cd ../lab10-cntr/ && gedit counter.v
+cd lab11-func/
+vvp lab10
+iverilog -o lab10 counter.v counter_test.v
+gedit counter.v
+cd lab10-cntr/
+gedit memory.v
+vvp lab9
+iverilog -o lab9 memory.v memory_test.v
+jobs
+gedit memory_test.v
+cd lab9-mem/
+vim register.v
+vvp lab8
+iverilog -o lab8 register.v register_test.v
+vim register_test.v
+iverilog -o register.v register_test.v
+lab8-reg/
+vvp lab7
+iverilog -o lab7 controller.v controller_test.v
+vim controller.v
+cd lab7-ctrl/
+gedit alu.v
+cd lab6-alu/
+vl
+vvp lab6
+iverilog -o lab6 alu.v alu_test.v
+vim alu.v
+vim alu_test.v
+ms
+fish_vi_key_bindings
+touch alu.v
+vvp lab5
+iverilog -o lab5 driver.v driver_test.v
+vim driver.v
+touch driver.v
+cd lab5-drvr/
+vim multiplexor.v
+xrun
+gedit README.txt
+vim README.txt
+touch multiplexor.v
+cd lab4-mux/
+cd Verilog\ labs/
+cd Backup\ data/
+cd user62
+cd media
+cd /media/user62
+xpdf
+vim vimrc
+tree -f | grep  .vimrc
+vim /.vimrc
+tree | grep  .vimrc
+vim docs-openhwgroup-org-cv32e40p-user-manual-en-latest
+vim docs-openhwgroup-org-cv32e40p-user-manual-en-latest.pdf
+cd src
+mkdir src
+cd logicbricks/
+rm -r src
+rm src
+mkdir logicbricks
+cd Vivado
+cd vivado
+tree | grep  logicbricks
+tree | grep  src
+tree | grep  Repository
+tree | grep "Vivado Repository"
+tree | grep Vivado Repository
+tree | grep vivado
+tree ls
+tree | find . -name vivdo
+find . -name vivdo
+source .bashrc
+vim .bashrc
+worksheet
+vim ~/.config/fish/config.fish
+source file.sh
+vim file.sh
+touch file.sh
+source ~/.config/fish/config.fish
+xdg-open "https://docs.google.com/spreadsheets/d/17BSZFtIEMUMuB47QkCi8Sj-82390GEcVn8dIkeIRaV4/edit?pli=1#gid=1896120228 help expand"
+No matches for wildcard “https://docs.google.com/spreadsheets/d/17BSZFtIEMUMuB47QkCi8Sj-82390GEcVn8dIkeIRaV4/edit?pli=1#gid=1896120228dd
+google-chrome
+xdg-open https://docs.google.com/spreadsheets/d/17BSZFtIEMUMuB47QkCi8Sj-82390GEcVn8dIkeIRaV4/edit?pli=1#gid=1896120228 help expand
+xdg-open https://docs.google.com/spreadsheets/d/17BSZFtIEMUMuB47QkCi8Sj-82390GEcVn8dIkeIRaV4/edit?pli=1#gid=1896120228
+xdg-open get-pip.py
+xdg-open p.sh
+dc Desktop/
+alias
+cd ~/.config/fish
+rfkill unblock bluetooth
+rfkill block bluetooth
+gnome-control-center
+sudo kill -9 801
+kill -9 801
+pidof bluetoothd
+pstree | grep  bluetoothd
+pstree | grep --ignore-case Bluetoothd
+pstree
+find . -name bluetoothd
+cd core-v-mcu-nexys/
+cd fpga
+git checkout ccf0f62
+git checkout 86
+git log --all --oneline | grep "fpga"
+make local-install
+cd shell
+git clone https://github.com/pop-os/shell
+sudo apt install node-typescript make git
+git clone https://github.com/10x-Engineers/rtl-design-training
+printf '2' | sha1sum
+sha1sum bubble.py
+make plot-%.png
+sudo apt install texlive-latex-base
+vim data.dat
+pip install -U Pillow
+vim plot.py
+import matplotlib
+vim paper.tex
+chmod +rwx data.dat
+chmod +rwx plot.py
+chmod +x plot.py
+mypy
+sudo make
+touch plot.py
+cat paper.tex
+touch paper.tex
+touch  Makefile
+python -m pdb bubble.py
+vim bubble.py
+python -m ipdb bubble.py
+pip install pdb
+pip install
+pip
+echo 'hi'
+sudo apt install pip
+pip install ipdb
+sudo rm -r pip
+rm -r pip
+vim pip
+cd /usr/bin
+cd /usr/bin/pip
+pip --version
+history
+sudo apt uninstall pip
+sudo apt-get install bfg
+apt-get remove fish -y
+curl -sS https://bootstrap.pypa.io/get-pip.py | python3.10
+ipdb
+python pdb
+pdb
+python bubble.py
+journalctl --since "1m ago" | grep Hello
+logger "Hello Logs"
+journalctl | grep Hello
+dmesg | grep audit | sed 's/*audit//'
+dmesg | grep audit | sed 's/*.audit//'
+dmesg | grep audit
+dmesg | grep bluetoothd
+dmesg | grep bluetooth
+dmesg
+journalctl
+echo -e "\e[38;2;255;150;150mThis is red\e[0m"
+echo -e "\e[38;2;255;100;150mThis is red\e[0m"
+echo -e "\e[38;2;255;100;100mThis is red\e[0m"
+echo -e "\e[38;2;255;0;0mThis is red\e[0m"
+python logger.py color
+python logger.py color log ERROR
+python logger.py log ERROR
+python logger.py log
+python logger.py
+mv ~/Downloads/logger.py ~/practice
+git push -u origin add-Gull-Ahmed
+git commit -m "Add Gull Ahmed to Contributors list"
+git add Contributors.md
+vim Contributors.md
+git switch -c add-Gull-Ahmed
+cd first-contributions/
+git clone https://github.com/gullahmed1/first-contributions.git
+rm -rfv first-contributions/
+git clone https://github.com/firstcontributions/first-contributions.git
+rm -rfv ms-1/
+rm -rfv missing-semester
+git push -u origin add-Gull-Ahmed:add-Gull-Ahmed
+git remote
+git remote add origin https://github.com/missing-semester/missing-semester.git
+git credential fill
+git credential
+printf "protocol=https\nhost=github.com\nusername=gullahmed1" | \
+  git credential-manager-core get
+printf "protocol=https\nhost=github.com\nusername=gullahmed1" |  git credential-manager-core get
+printf "protocol=https\nhost=github.com\nusername=gullahmed1" | \  git credential-manager-core get
+printf "protocol=https\nhost=github.com\nusername=<me>" | \  git credential-manager-core get
+git config credential.helper
+code Contributors.md
+git clone https://github.com/missing-semester/first_contribution.git
+rmdir -rfv missing-semester
+rm -r .*
+rmdir --help
+rmdir -r missing-semester
+rm -r missing-semester*
+rm -r missing-semester
+chmod +wrx missing-semester/
+rm missing-semester
+rm -r missing-semester/*
+rm -r missing-semester/
+vim .gitignore
+vim ~/.gitignore
+touch .DS_store
+git commit -m "adding an ignore file"
+vim hii.txt
+touch hii.txt
+vim ~/.gitignore_global
+git config --global core.excludesfile ~/.gitignore_global
+cd git_practice/
+git
+rm -f fish fish_indent
+cd /usr/local/bin
+rm /usr/local/share/man/man1/fish*.1
+rm -Rf /usr/local/etc/fish /usr/local/share/fish ~/.config/fish
+sudo rm "/usr/lib/command-not-found"
+rm "/usr/lib/command-not-found"
+vim "/usr/lib/command-not-found"
+rm -r riscv-processor-model/
+cd riscv-processor-model
+cat "/usr/lib/command-not-found"
+cd /usr/lib
+source ~/.gitconfig
+graph
+git checkout master
+cd ~/.gitconfig
+git commit -m "adding passwords"
+git checkout 5c5cb80
+cat password.txt
+git filter-branch --force --index-filter "git rm --cached --ignore-unmatch password.txt" --prune-empty --tag-name-filter cat -- --all
+git rm --cached 'password.txt'
+git rm --cached password.txt
+rm
+git checkout 4f2509fab4209e682b7e
+git rm
+git checkout 3cc8149a977d02745e04a9e5e4
+git checkout 4f2509fab4209e682b
+git log -1
+git log 4f2509fab4209e682b7e7964a81ce528f8cabe2c
+cat 4f2509fab4209e682b7e7964a81ce528f8cabe2c
+man filter-branch
+tldr filter-branch
+tldr git filter-branch
+git filter-branch password.txt
+bfg --delete-files password.txt
+bfg
+git history
+git commit -m "adding password"
+vim password.txt
+git blame _config.yml | git show 3cc8149a977d02745e04a9e5e47e9a42c2ec415f
+git blame _config.yml | git show _config.yml
+git blame _config.yml
+man git blame
+git blame show
+git blame
+git log -1 --pretty=format:'%an' -- README.md
+git log -1 --README.md
+git log -1 --readme.md
+git diff animal.py
+vim animal.py
+cd ../remote/
+cd remote/
+git config
+git log --all --graph --decorate --oneline
+git push origin master:master
+git remote add origin ../remote
+up
+git init --bare
+mkdir remote
+git merge cat
+git checkout dog
+cat animal.py
+git checkout cat
+cat hello.txt
+git merge dog
+git commit -m "adding cat branch"
+git checkout -b cat
+python animal.py dog
+python animal.py dfdf
+git commit -m "adding dog"
+git checkout -b dog
+git commit -m "adding cat function"
+python animal.py cat
+python animal.py
+git branch -vv
+git branch
+git commit -m "adding hello"
+git checkout hello.txt
+git diff hello.txt
+vim hello.txt
+git checkout
+git checkout 3ea5f48
+git reset
+git cat-file -p 3b18e512dba79e4c8300dd08aeb37f8e728b8dad
+git cat-file -p 68aba62e560c0ebc3396e8ae9335232cd93a3f60
+git cat-file -p 3ea5f48
+ip
+echo "hello world" >>hello.txt
+git config --global user.name "gullahmed1"
+git config --global user.email "gull.ahmed@10xengineers.ai"
+python3 -m pip install PySimpleGUI
+pip3 install pysimplegui
+pip3
+sudo apt install pip3
+git clone https://github.com/junior-jl/riscv-processor-model
+python3 --version
+sudo update-alternatives --config python3
+sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.10 2
+sudo apt install python3.10
+sudo add-apt-repository ppa:deadsnakes/ppa; sudo apt update
+ssh-keygen -t ed25519 -C "gull.ahmed@10xengineers.ai"
+echo "hello world" >hello.txt
+git help
+ls .git
+mkdir git_practice
+wd
+tldr wait
+tldr pkill | less
+man pkill
+tldr pkill
+tldr bg
+sudo apt-get install -y putty
+sudo kill -9 52873
+kill -9 52873
+kill -l 52873
+pidof bluetoothhd
+rm 'alias wd'
+cd Pictures/
+mv *.txt 'alias wd'
+mv *.txt alias wd
+touch hi.txt
+rm hi
+touch hi
+mv *.txt /home/user62/practice
+mv text-digit.py /home/user62/practice
+mv {text-digit}.py /home/user62/practice
+mv {editor,firstpython}.py /home/user62/practice
+mv {editors,sigint}.py /home/user62/practice
+mv {editors,sigint,filtered_words}.{py,txt} /home/user62/practice
+mv -type f  /home/user62/practice
+mv {chatgptcode,code}.sh /home/user62/practice
+mv {chatgptcode,code}.sh wd
+alias wd="cd /home/user62/practice"
+fish
+sleep 1000
+rm jobs
+vim jobs
+jobs -l
+job -l
+bg %{{job_id}}
+job
+tldr fg
+journalctl | grep "Startup" | sed -E 's/.*Startup finished in //' | rg [0-9]*\.[0-9]+.*\.
+vim code.txt
+./code.sh
+chmod +x code.sh
+vim text-digit.py
+journalctl | grep "Startup" | sed -E 's/.*Startup finished in //' | rg [\d]
+journalctl | grep "Startup" | sed -E 's/.*Startup finished in //' | rg [0-9]
+journalctl | grep "Startup" | sed -E 's/.*Startup finished in //' | rg \d
+journalctl | grep "Startup" | sed -E 's/.*Startup finished in //' | rg [0-9]\.
+journalctl | grep "Startup" | sed -E 's/.*Startup finished in //' | rg [0-9]*.
+journalctl | grep "Startup" | sed -E 's/.*Startup finished in //' | rg [0-9]*\\
+journalctl | grep "Startup" | sed -E 's/.*Startup finished in //' | rg [0-9]*
+journalctl | grep "Startup" | sed -E 's/.*Startup finished in //' | rg [0-9]*\.
+journalctl | grep "Startup" | sed -E 's/.*Startup finished in //' | rg [0-9]*\.[0-9]+.*
+journalctl | grep "Startup" | sed -E 's/.*Startup finished in //'
+journalctl | grep "Startup"
+journalctl | grep "Startup" | cut --delimiter=' ' -f13 | head -n10
+python text-digit.py
+python3 text-digit.py
+journalctl | grep "Startup" | sed -E 's/.*Startup finished in ([0-9]*\.[0-9]+.*) //'| cut --delimiter=' ' -f13 | head -n10
+journalctl | grep "Startup" | sed -E 's/.*Startup finished in (([0-9]*\.[0-9]+.*)) /\1/'| cut --delimiter=' ' -f13 | head -n10
+journalctl | grep "Startup" | sed -E 's/.*Startup finished in ([0-9]*\.[0-9]+.*) /\2/'| cut --delimiter=' ' -f13 | head -n10
+journalctl | grep "Startup" | sed -E 's/.*Startup finished in ([0-9]*\.[0-9]+.*) /\1/'| cut --delimiter=' ' -f13 | head -n10
+journalctl | grep "Startup" | sed -E 's/.*Startup finished in [0-9]*\.[0-9]+.* /\1/'| cut --delimiter=' ' -f13 | head -n10
+journalctl | grep "Startup" | sed -E 's/.*Startup finished in [0-9]*\.[0-9]+.* //'| cut --delimiter=' ' -f13 | head -n10
+journalctl | grep "Startup" | sed -E 's/.*Startup finished in [0-9]*\\.[0-9]+.*\\. /\1/'| cut --delimiter=' ' -f13 | head -n10
+journalctl | grep "Startup" | sed -E 's/.*Startup finished in ([\d+\.\d+]) /\1/'| cut --delimiter=' ' -f13 | head -n10
+journalctl | grep "Startup" | sed -E 's/.*Startup finished in [\d+\.\d+] //'| cut --delimiter=' ' -f13 | head -n10
+journalctl | grep "Startup" | sed -E 's/.*Startup finished in [\d+\.\d+] //' |sed 's/[^s].* //'| cut --delimiter=' ' -f13 | head -n10
+journalctl | grep "Startup" | sed -E 's/.*Startup finished in ([0-9]\.)//' |sed 's/[^s].* //'| cut --delimiter=' ' -f13 | head -n10
+journalctl | grep "Startup" | sed -E 's/.*Startup finished in ([0-9]\.)/\1/' |sed 's/[^s].* //'| cut --delimiter=' ' -f13 | head -n10
+journalctl | grep "Startup" | sed -E 's/.*Startup finished in ([0-9])/\1/' |sed 's/[^s]7.650s.
+.* //'| cut --delimiter=' ' -f13 | head -n10
+journalctl | grep "Startup" | sed -E 's/.*Startup finished in ([0-9])/\1/' |sed 's/[^s].* //'| cut --delimiter=' ' -f13 | head -n10
+journalctl | grep "Startup" | sed -E 's/.*Startup finished in ([0-9])/\1/' | cut --delimiter=' ' -f13 | head -n10
+journalctl | grep "Startup" | sed -E 's/.*Startup finished in ([0-9]) /\1/' | cut --delimiter=' ' -f13 | head -n10
+./text-digit.py
+chmod +x text-digit.py
+journalctl | grep "Startup" | sed -E 's/.*Startup finished in ([0-9])/\1/' | cut --delimiter=' ' -f13 | head -n10 > coding.txt
+journalctl | grep "Startup" | sed -E 's/.*Startup finished in ([\d+])/\1/' | cut --delimiter=' ' -f13 | head -n10
+journalctl | grep "Startup" | sed -E 's/.*Startup finished in ([0-9]) /\1/' | cut --delimiter=' ' -f13
+journalctl | grep "Startup" | sed -E 's/.*Startup finished in ([0-9]) [^a-z]/\1/' | cut --delimiter=' ' -f13
+journalctl | grep "Startup" | sed -E 's/.*Startup finished in ([0-9]) [^a-z]/\1/' | cut --delimiter=' '
+journalctl | grep "Startup" | sed -E 's/.*Startup finished in ([0-9]) [^a-z]/\1/'
+journalctl | grep "Startup" | sed -E 's/.*Startup finished in ([0-9]) [^a-z]/\1/' | cut --delimiter=' ' -f13 | head -n10
+cat coding.txt | grep [0-9]
+cat coding.txt | grep [0-9]^
+cat coding.txt | grep [0-9]^.
+cat coding.txt
+cat coding.txt | sed 's/[\d+] //'
+cat coding.txt | sed 's/[\d] //'
+cat coding.txt | grep \d
+cat coding.txt | sed 's/[\d].* //'
+cat coding.txt | sed 's/[\d].*//'
+cat coding.txt | sed 's/[d].*//'
+cat coding.txt | sed 's/\d.*//'
+cat coding.txt | sed 's/(0-9).*/\1/'
+cat coding.txt | sed 's/([0-9]).*/\1/'
+cat coding.txt | sed 's/([0-9]).* /\1/'
+cat coding.txt | sed 's/([0-9]).* //'
+cat coding.txt | sed 's/([0-9].* //'
+cat coding.txt | sed 's/([\d].* //'
+vim coding.txt
+journalctl | grep "Startup" | sed -E 's/.*Startup finished in ([0-9]) [^abc]/\1/' | cut --delimiter=' ' -f13 | head -n10
+journalctl | grep "Startup" | sed -E 's/.*Startup finished in ([0-9]) [^az]/\1/' | cut --delimiter=' ' -f13 | head -n10
+journalctl | grep "Startup" | sed -E 's/.*Startup finished in (\w) /\1/'
+journalctl | grep "Startup" | sed -E 's/.*Startup finished in \w /\1/'
+journalctl | grep "Startup" | sed -E 's/.*Startup finished in ([\w]) /\1/'
+journalctl | grep "Startup" | sed -E 's/.*Startup finished in ([\d+]) /\1/'
+journalctl | grep "Startup" | sed -E 's/.*Startup finished in ([\d]) /\1/'
+journalctl | grep "Startup" | sed -E 's/.*Startup finished in (\d+m?s?) /\1/'
+journalctl | grep "Startup" | sed -E 's/.*Startup finished in (\d) /\1/'
+journalctl | grep "Startup" | sed -E 's/.*Startup finished in (\d)^s /\1/'
+journalctl | grep "Startup" | sed -E 's/.*Startup finished in (\d)/\1/'
+journalctl | grep "Startup" | sed -E 's/.*Startup finished in ([0-9])/\1/'
+journalctl | grep "Startup" | sed -E 's/.*Startup finished in ([0-9]^s)/\1/' | cut --delimiter=' ' -f13 | head -n10
+journalctl | grep "Startup" | sed -E 's/.*Startup finished in ([0-9])^s/\1/' | cut --delimiter=' ' -f13 | head -n10
+journalctl | grep "Startup" | sed -E 's/.*Startup finished in ([0-9])[^s]/\1/' | cut --delimiter=' ' -f13 | head -n10
+journalctl | grep "Startup" | sed -E 's/.*Startup finished in ([0-9])[^ms]/\1/' | cut --delimiter=' ' -f13 | head -n10
+journalctl | grep "Startup" | sed -E 's/.*Startup finished in (\w)/\1/' | cut --delimiter=' ' -f13 | head -n10 | bc -l
+journalctl | grep "Startup" | sed -E 's/.*Startup finished in (\w)/\1/' | cut --delimiter=' ' -f13 | head -n10 | R --slave -e 'x <- scan(file="stdin",quiet=TRUE); summary (x)'
+journalctl | grep "Startup" | sed -E 's/.*Startup finished in (\w)/\1/' | cut --delimiter=' ' -f13 | head -n10
+journalctl | grep "Startup" | sed -E 's/.*Startup finished in (\d)/\1/' | cut --delimiter=' ' -f13 | head -n10
+xdg-open code.txt
+curl -s https://ucr.fbi.gov/crime-in-the-u.s/2016/crime-in-the-u.s.-2016/topic-pages/tables/table-1 >code.txt
+curl domgyr.com
+curl -s https://ucr.fbi.gov/crime-in-the-u.s/2016/crime-in-the-u.s.-2016/topic-pages/tables/table-1 | grep Year -A 5
+curl -s https://ucr.fbi.gov/crime-in-the-u.s/2016/crime-in-the-u.s.-2016/topic-pages/tables/table-1 | grep Year A 5
+curl -s https://ucr.fbi.gov/crime-in-the-u.s/2016/crime-in-the-u.s.-2016/topic-pages/tables/table-1 | grep Year
+curl -s https://ucr.fbi.gov/crime-in-the-u.s/2016/crime-in-the-u.s.-2016/topic-pages/tables/table-1
+curl -s https://ucr.fbi.gov/crime-in-the-u.s/2016/crime-in-the-u.s.-2016/topic-pages/tables/table-1 | pup 'table table tr:nth-last-of-type(n+2) td.title a json{}'
+go install github.com/ericchiang/pup@latest
+go install github.com/ericchiang/pup
+go get github.com/ericchiang/pup
+sudo snap install go --classic
+sudo snap install pup
+git clone github.com/ericchiang/pup
+sudo snap install go
+go
+pup
+curl https://ucr.fbi.gov/crime-in-the-u.s/2016/crime-in-the-u.s.-2016/topic-pages/tables/table-1
+curl --head https://ucr.fbi.gov/crime-in-the-u.s/2016/crime-in-the-u.s.-2016/topic-pages/tables/table-1
+curl --head --silent https://ucr.fbi.gov/crime-in-the-u.s/2016/crime-in-the-u.s.-2016/topic-pages/tables/table-1
+journalctl -n3 | grep 'user' | sed -E 's/.*5//' | uniq
+journalctl -n3 | grep 'user' | sed -E 's/.*5//'
+journalctl -n3 | grep 'user' | sed -E 's/.*user//'
+journalctl -n3
+journalctl -n
+man journalctl
+journalctl -b
+$status
+journalctl -b | sed '0,/logs/d'
+journalctl’s -b
+sudo apt install r-base-core
+journalctl | grep "Startup" | sed -E 's/.*Startup finished in (\w)/\1/' | cut --delimiter=' ' -f13 | head -n10 | wc -l
+journalctl | grep "Startup" | sed -E 's/.*Startup finished in (\w)/\1/' | cut --delimiter=' ' -f13
+journalctl | grep "Startup" | sed -E 's/.*Startup finished in (\w)/\1/' | cut --delimiter=' ' -f13 | sort -n
+journalctl | grep "Startup" | sed -E 's/.*Startup finished in (\w)/\1/' | cut --delimiter=' ' -f13 | sort
+journalctl | grep "Startup" | sed -E 's/.*Startup finished in (\w)/\1/' | cut --delimiter=' ' -f14
+journalctl | grep "Startup" | sed -E 's/.*Startup finished in (\w)/\1/' | cut --delimiter=' ' -f15
+journalctl | grep "Startup" | sed -E 's/.*Startup finished in (\w)/\1/' | cut --delimiter=' ' -f10
+journalctl | grep "Startup" | sed -E 's/.*Startup finished in (\w)/\1/' | sort | cut --delimiter=' ' -f10
+journalctl | grep "Startup" | sed -E 's/.*Startup finished in (\w)/\1/' | sort | cut --delimiter=' ' -f9
+journalctl | grep "Startup" | sed -E 's/.*Startup finished in (\w)/\1/' | sort | cut --delimiter=' ' -f2
+journalctl | grep "Startup" | sed -E 's/.*Startup finished in (\w)/\1/' | sort
+journalctl | grep "Startup" | sed -E 's/.*Startup finished in (\w)/\1/' | wc -l
+journalctl | grep "Startup" | sed -E 's/.*Startup finished in (\w)/\1/'
+journalctl | grep "Startup" | grep -v "firmware"| sed -E 's/.*Startup finished in (\w)/\1/' | wc -l
+journalctl | grep "Startup" | grep -v "firmware"| sed -E 's/.*Startup finished in (\w)/\1/'
+journalctl | grep "Startup" | sed -E 's/.*Startup finished in (\w)\s\[^firmware]\s+\d/\1/'
+journalctl | grep "Startup" | sed -E 's/.*Startup finished in (\w)\s(firmware)\s+\d/\2/'
+journalctl | grep "Startup" | sed -E 's/.*Startup finished in (\w)\s(firmware)\s+\d/\1/'
+journalctl | grep "Startup" | sed -E 's/.*Startup finished in (\w^firmware)/\1/'
+journalctl | grep "Startup" | sed -E 's/.*Startup finished in (.*)/\1/'
+journalctl | grep "Startup" | sed -E 's/.*Startup finished in (.*) (firmware?)/\1/'
+journalctl | grep "Startup" | sed -E 's/.*Startup finished in (.*) ((firmware)?))/\1/'
+journalctl | grep "Startup" | sed -E 's/.*Startup finished in (.*) (firmware)?/\1/'
+./code.txt
+chmod +x code.txt
+/usr/share/dict/wordscat /usr/share/dict/words | rg [as]{3}+[^s]
+cat /usr/share/dict/words | rg [as]{3}+[^s]
+cat /usr/share/dict/words | rg [as]{3}+^s
+cat /usr/share/dict/words | rg [as]{3}+v
+cat /usr/share/dict/words | rg [as]{3} | wc -l
+cat /usr/share/dict/words | rg [as]{3}
+cat /usr/share/dict/words | rg ([as]{3})
+cat /usr/share/dict/words | rg [as]{2}
+cat /usr/share/dict/words | rg a{2},s
+cat /usr/share/dict/words | rg a{2}
+cat /usr/share/dict/words | rg a{3}
+cat /usr/share/dict/words | rg 3[a|s]
+cat /usr/share/dict/words | rg [abc]
+cat /usr/share/dict/words | rg [a]
+cat /usr/share/dict/words | sed 's/.*[abc] //' | wc -l
+cat /usr/share/dict/words | sed 's/.*[abc] //'
+sudo apt-get install openssh-server ii.
+ssh  0.tcp.in.ngrok.io 12784
+ssh  0.tcp.in.ngrok.io
+ssh
+ssh  0.tcp.in.ngrok.io journalctl
+cat words | sed -E 's/.*troubling //' | wc -l
+cat words | sed -E 's/.*troubling //'
+cat words | sed -E 's/.*[a] //'
+cat words | sed -E find .a
+cat words | sed -E find a
+cat words | sed -E 's/a{3}.*//'
+cat words | sed -E 'a{3}'
+cat words | sed -E a{3}
+cat words | sed -E 's/^a.*//'
+cat words | sed -E 's/a.*//'
+cat words
+cat words | wc -l
+cat words | sed -E 's/[^a].*//' | wc -l
+cat words | sed -E 's/[^a].*//'
+cat words | grep '\d'
+cat words | grep \d
+cat words | grep [as]
+cat words | sed -E '/w'
+cat words | sed -E /w
+cat words | sed /w
+cat words | grep [a]
+cat words | grep a{3}
+cat words | grep a
+cat words | sed 's/a{3} //'
+cat words | sed a{3}
+cat words | a{3}
+cd dict/
+cd share/
+cd usr/
+cd /usr/share/dict/words
+echo '1+2' | bc -l
+echo '1+2' | bc
+'1+2' | bc
+rm ffm.txt
+cat ffm.txt
+ffmpeg -nostats -i happy.mp3 -filter_complex ebur128=peak=true -f null - | awk '/True/' >ffm.txt
+ffmpeg -nostats -i happy.mp3 -filter_complex ebur128=peak=true -f null - | awk '/True/'
+rm ffmpeg.txt
+rm �����nV\%=�ꪛ8\[I20�ŭa�
+rm ��rnNOd�ѣ�3e��3�X��S褽������\]G�qC�
+rm rustup
+rm 'i�y�J[�VX�9��+.ΐ2�'
+cat ffmpeg.txt
+ffmpeg -nostats -i happy.mp3 -filter_complex ebur128=peak=true -f null - | xargs >ffmpeg.txt
+ffmpeg -nostats -i happy.mp3 -filter_complex ebur128=peak=true -f null - | xargs au.txt
+ffmpeg -nostats -i happy.mp3 -filter_complex ebur128=peak=true -f null - | grep True | awk '$0 ~ /nan/ {print $0}'
+ffmpeg -nostats -i happy.mp3 -filter_complex ebur128=peak=true -f null - | grep True | awk '{if ($0 ~ /TARGET/) print $0}'
+ffmpeg -nostats -i happy.mp3 -filter_complex ebur128=peak=true -f null - | grep True | awk '{if ($0 ~ /pattern/) print $0}'
+ffmpeg -nostats -i happy.mp3 -filter_complex ebur128=peak=true -f null - | grep True | wc -l
+cd Music/
+awk
+exec $SHELL
+echo $SHELL
+ffmpeg -nostats -i happy.mp3 -filter_complex ebur128=peak=true -f null - | grep True
+ffmpeg -nostats -i happy.mp3 -filter_complex ebur128=peak=true -f null -
+ffmpeg -nostats -i happy.mp3 -filter_complex ebur128=peak=true -f null - | grep TPK
+ffmpeg -nostats -i happy.mp3 -filter_complex ebur128=peak=true -f null - | sed -E 's/.*Integrated //'
+ffmpeg -nostats -i happy.mp3 -filter_complex ebur128=peak=true -f null - | sed -E 's/.*Summary //'
+sudo feh systemd-private-8e451def11e54b6386f8350edb986673-colord.service-ILGlbi/
+feh systemd-private-8e451def11e54b6386f8350edb986673-colord.service-ILGlbi/
+cd tmp
+ffmpeg -loglevel panic -i /dev/video0 -frames 1 -f image2 - | feh -
+ffmpeg -loglevel panic -i /dev/video0 -frames 1 -f image2 - | convert - -colorspace white - | feh -
+ffmpeg -loglevel panic -i /dev/video0 -frames 1 -f image2 - | convert - -colorspace blue - | feh -
+ffmpeg -loglevel panic -i /dev/video0 -frames 1 -f image2 - | convert - -colorspace gray - | feh -
+sudo apt install feh
+feh
+ffmpeg -loglevel panic -i /dev/video0 -frames 1 -f image2 - | convert - -colorspace gray -
+ffmpeg -loglevel panic -i /dev/video0 -frames 1 -f image2 - | convert - -colorspace gray - | ssh mymachine 'env DISPLAY=:0 feh -'
+DISPLAY
+ffmpeg -loglevel panic -i /dev/video0 -frames 1 -f image2 - | convert - -colorspace gray - | 'env DISPLAY=:0 feh -'
+sudo apt install imagemagick-6.q16
+convert
+rustup toolchain list
+sudo --classic snap install rustup
+sudo snap install rustup
+xargs
+Screenshot
+text-editor
+ffmpeg -nostats -i happy.mp3 -filter_complex ebur128=peak=true -f null - | grep 'Summary'
+ffmpeg -nostats -i happy.mp3 -filter_complex ebur128=peak=true -f null - | grep 'TPK'
+vim myhistory_6feb.txt
+history > myhistory_6feb.txt
+history | less
+journalctl | grep "intel_pstate" | sort | uniq -c
+journalctl | grep "intel_pstate"
+journalctl | grep "intel_pstate" | sed 's/.* Intel P-state //' | wc -l
+journalctl | grep "intel_pstate" | sed 's/.* Intel P-state //'
+journalctl | grep "intel_pstate" | sed -E 's/.* (Intel P-state | HWP)? //'
+journalctl | grep "intel_pstate" | sed 's/.* (Intel P-state | HWP)? //'
+journalctl | grep "intel_pstate" | sed 's/.* (Intel P-state | HWP) //'
+journalctl | grep "intel_pstate" | sed 's/.*Intel P-state //'
+echo 'disconnected from invalid user disconnected from 84.211' | sed 's/.*disconnected from //'
+echo 'disconnected from invalid user disconnected from 84.211' | sed 's/.*Disconnected from //'
+echo 'disconnected from invalid user disconnected from 84.211' | sed 's/.*Disconnected from'
+journalctl | grep "intel_pstate" | sed 's/.*intel_pstate //'
+echo 'hihhi' | sed -E 's/(hi)*//g'
+echo 'hihhi' | sed 's/(hi)*//g'
+echo 'hhhi' | sed 's/[h]//g'
+echo 'hhhi' | sed 's/[g]//g'
+journalctl | grep -i "intel_pstate" | less
+journalctl | grep -i "intel_pstate" | sed 's/.*intel_pstate //'
+journalctl | grep -i "intel" | less
+journalctl | grep -i intel | less
+journalctl | grep -i intel
+vim XML_JSON.py
+pwd
+vim editor.py
+vim ~/.vimrc
+cd ~/.vim/pack/vendor/start
+cd ctrlp.vim/
+git clone https://github.com/ctrlpvim/ctrlp.vim
+mkdir -p ~/.vim/pack/vendor/start
+man mkdir
+rm 'vimrc (1)'
+rm vimrc (1)
+rm vimrc(1)
+rm vimrc1
+vim testing_micro
+set -o vi
+sudo apt install tmux
+vim
+sudo apt install python3
+sudo apt install python 3.0
+python --version
+python editor.py
+sudo apt install python
+mv editor.sh editor.py
+bash editor.sh
+python editor.sh
+vim editor.sh
+chmod +x editor.sh
+rm editor
+vim editor
+vim myscript.sh
+rm hi.txt
+cat hi.txt
+clear
+which fish
+which bash
+ls foo/
+touch {foo,bar}/{1..8}
+mkdir bar
+tldr xargs
+ls | xargs rm
+cd foo
+touch foo/{1..8}
+mkdir foo
+rm -r foo
+rm -i foo
+rm foo
+touch {foo}/{1..8}
+./myscript.sh
+echo "./fails_rarely.sh" >myscript.sh
+chmod +x myscript.sh
+chmod +x fails_rarely.sh
+touch myscript.sh
+vim fails_rarely.sh
+touch fails_rarely.sh
+source marco.sh
+xdg-open marco.sh
+touch marco.sh
+cd pra
+mkdir practice
+rm marco.sh
+sudo apt install vim
+vim --version
+./marco.sh
+bash marco.sh
+bash macro.sh
+source script
+source polo
+source polo.sh
+source macro.sh
+./macro.sh
+./macro.sh polo
+chmod +x macro.sh
+./ macro.sh
+./marco
+bash macro.sh marco
+bash polo.sh
+xdg-open macro.sh
+touch polo.sh
+touch macro.sh
+f foo
+v def conf
+fasd p.sh
+z p.sh
+sudo apt install fasd
+fasd
+rm {{}}
+rm bash_file
+rm {{bash_file}}
+bash bash_file
+cat bash_file
+ln -s /Music/p.sh bash_file
+cat {{bash_file}}
+ln -s {{/Music/p.sh}} {{bash_file}}
+ln -s {{/Music/p.sh}} {{}}
+ln -s {{/home/Music/p.sh}} {{/home}}
+tldr ln
+tldr ln-s
+tldr grep
+bash p.sh
+ffplay happy.mp3
+ffplay --help
+$ffmpeg
+$ffmpeg -nostats -i happy.mp3 -filter_complex ebur128=peak=true -f null -
+history | grep happy.mp3
+sudo apt
+sudo apt install
+sudo ap
+sudo
+335670
+ffmpeg -nostats -i happy.mp3 -filter_complex ebur128=peak=true -f null - >hi.txt
+grep TPK | ffmpeg -nostats -i happy.mp3 -filter_complex ebur128=peak=true -f null -
+ffmpeg -nostats -i happy.mp3 -filter_complex ebur128=peak=true -f null - | cut -b 15,16,17,18,19,20
+ffmpeg -nostats -i happy.mp3 -filter_complex ebur128=peak=true -f null - | grep --ignore-case TPK | cut --delimiter=' ' -f4
+ffmpeg  happy.mp3 -filter_complex ebur128=peak=true -f
+ffmpeg -nostats  happy.mp3 -filter_complex ebur128=peak=true -f
+ffmpeg happy.mp3
+ffmpeg happy.mp3 -filter_complex ebur128=peak=true
+ffmpeg -nostats -i happy.mp3 -filter_complex ebur128=peak=true
+ffmpeg -nostats -i happy.mp3 -filter_complex ebur128=peak=true -f
+ffmpeg -nostats -i happy.mp3 -filter_complex ebur128=peak=true -f null - | grep --ignore-case TPK | cut --delimiter=' ' -f2
+ffmpeg -nostats -i happy.mp3 -filter_complex ebur128=peak=true -f null - | grep --ignore-case content-length | cut --delimiter=' ' -f2
+cat p ffplay | ffplay happy.mp3
+cat p  ffplay happy.mp3
+cat p | ffplay happy.mp3
+ffplay p happy.mp3
+~
+sudo apt install parallel
+man ffplay
+cat brightness
+cd brightness
+cd intel_backlight
+cd /sys/class/backlight
+sudo ./p.sh
+./p.sh
+ffplay /home/user62/Music/happy.mp3
+touch p.sh
+sudo apt install ffmpeg
+/home/user62/Desktop/fplay.txt
+fplay happy
+cat /home/user62/Desktop/fplay.txt >> ~/.bash_profile
+cat /home/user62/Desktop/fplay.txt
+file:///home/user62/Desktop/fplay.txt
+copy
+cat x-special/nautilus-clipboard
+cat cat ~/Desktop/fplay.txt >> ~/.bash_profile
+play happy.mp3
+sudo apt install php-gd
+sudo apt install libsox-fmt-all
+sudo apt install sox
+play happy.M4A
+play happy
+sudo apt-get install sox libsox-fmt-M4A
+xdg-open .bashrc
+.bashrc
+ll
+./bashrc
+man bash
+sudo apt install zsh
+zsh
+cd .oh-my-zsh/custom/plugins/zsh-autosuggestions/
+gedit ./.oh-my-zsh/
+gedit .oh-my-zsh/
+xdg-open ./bashrc
+xdg-open bashrc
+xdg-open zsh-autosuggestions.plugin.zsh
+cat zsh-autosuggestions.plugin.zsh
+cd zsh-autosuggestions/
+cd plugins/
+xdg-open ~/.zshrc
+cd /home/user62/.oh-my-zsh/custom/plugins/zsh-autosuggestions
+sudo find . -name zshrc
+find . -name zshrc
+~/.zshrc
+ls | grep zsh
+cd zsh-autosuggestions
+sudo apt install git
+cd /bin
+history | grep ls
+history | grep find
+rg --stats PATTREN
+rg -u --files-without-match "#!"
+rg -u --files-without-match "^#\!"
+rg -u --files-with-match "^#\!"
+rg -t py 'print'
+sudo apt install ripgrep
+cat ~/Desktop/fplay.txt >> ~/.bash_profile
+grep shellcheck
+sudo find . -name shellcheck
+find . -name shellcheck
+cd ./opt
+sudo find . -name opt -type d
+find . -name opt -type d
+cd ./.config/libreoffice/4/user/extensions/tmp
+find . -name tmp
+find . -name bin -type d
+find . -name src -type d
+shellcheck firstpython.py
+sudo apt install shellcheck
+cd local
+rm -r bar
+diff <(ls foo) <(ls bar)
+touch bar/y
+touch foo/x
+touch {foo,bar}/{a..h}
+mkdir foo bar
+rm bar
+rm foo*
+touch foo3
+touch foo2
+touch foo1
+rm foo?
+touch bar
+touch foo1,foo2
+cd .
+cat last-modified.txt
+ls -lt | cut -b 31,32,33,34,35,36,37 >last-modified.txt
+xdg-open last-modified.txt
+ls -lt | cut -b 31,32,33,34,35,36,37
+ls -lt | cut -b 31,32,33,34,35
+ls -lt | cut -b 32,33,34,35
+ls -lt | cut -b 30,31,32,33,34,35
+ls -lt | cut -b 30,31,32
+ls -lt | cut -b 5,6,7
+ls -lt | cut -b 1,2,3
+cut -b 1,2,3 semester
+cd missing/
+cut -b 1,2,3
+ls_date
+ls -lt | grep  "month"
+ls -lt | cat month
+ls -lt | grep month
+ls -lt | grep 2 | cut
+ls -lt | grep 2 | cut -d '' -f2
+ls -lt | grep Feb | cut -d '' -f2
+ls -lt | grep Feb | cut -d '' -f 2
+ls -lt | grep F | cut -d '' -f 2
+ls -lt | grep F | cut -d '' -f2
+ls -lt | grep t | cut -d '' -f2
+ls -lt | grep t | cut -d '' -t
+ls -lt | grep t | cut t
+ls -lt | grep t
+ls -lt | grep time
+ls -l | grep time
+ls -l | grep Date
+ls -l | grep date
+ls -l | grep Feb
+ls -l | grep Feb 2
+ls -l | grep Feb2
+ls -l | grep 2
+ls -l | grep "Feb 2"
+date --file=semester
+ls -lt
+ls lt
+ls -l | cut -d ' ' -f7
+ls -l | cut -d ' ' -f67
+ls -l | cut -d ' ' -f6
+ls -l | cut -d ' ' -f5
+ls -l | cut -d ' ' -f4
+ls -l | cut -d ' ' f4
+cd semester
+cd tmp/
+ls -l | cut -d 'f5 ' -f6
+ls -l | cut -d ' ' -f 6
+ls -l | cut -d ' ' -f 5
+ls -l | cut -d ' ' -f 4
+ls -l | cut -d ' ' -f 3
+ls -l | cut --fields=3
+ls -l | cut --fields=2
+ls -l | cut --fields=1
+ls -l | cut --fields=''
+ls -l | cut --characters=28-40
+ls -l | cut --characters=30-40
+ls -l | cut --characters=32-40
+ls -l | cut --characters=25-35
+ls -l | cut --characters=1-25
+ls -l | cut --characters=1-15
+ls -l | cut --characters=1-5
+ls -l | cut --characters=1
+ls -l | cut --characters=' ' 1
+ls -l | cut --characters=' '
+ls -l | cut --characters=' ' -f5
+ls -l | cut 2
+ls -l | cut --delimiter=' ' -f5
+ls -l | cut --delimiter=' ' -f6
+ls -l | cut --delimiter=' ' -f7
+rm text.txt
+ls -l | cut --delimiter=' ' -f8
+ls -l | cut --delimiter=' ' -f4
+ls -l | cut --delimiter=' ' -f1
+ls -l | cut --delimiter=' ' -f2
+cat text.txt
+ls -l | grep --ignore-case modified | cut --delimiter=' ' -f2 > text.txt
+ls -l | grep --ignore-case modified | cut --delimiter=' ' -f2
+ls l
+ls -c
+man ls
+ls -C -l /
+ls -l / -C
+ls -lt -C
+ls -l -C
+ls -l | grep --ignore-case last-modified
+ls -l | grep “last modified”
+curl --head --silent google.com | grep --ignore-case content-length
+curl --head --silent google.com | grep --ignore-case content-lengt
+curl --head --silent google.com | grep --ignore-case content-length | cut --delimiter=' ' -f2
+curl --head --silent semester | grep --ignore-case content-length | cut --delimiter=' ' -f2
+curl --head --silent semester | grep --ignore-case content-length
+curl --head --silent semester | grep --ignore case content length
+curl --head --silent semester
+ls -l / | tail -n1
+ls -l /
+ls -l/
+ls /
+sudo apt install curl
+chmod +x semester
+xdg-open semester
+sh semester
+./semester
+chmod -x semester
+cat semester
+chmod --help
+chmod 777
+chmod +x:
+chmod +x
+chmod [111]
+man chmod
+chmod 111
+touch semester
+mkdir missing
+echo 0 | sudo tee brightness
+cat max_brightness
+echo 3 | sudo tee brightness
+echo 2 | sudo tee brightness
+echo 1 | sudo tee brightness
+cd input2::scrolllock
+cd leds/
+cd ../
+echo 120000 | sudo tee brightness
+ho 12000 | sudo tee brightness
+echo 12000 | sudo tee brightness
+cd /sys/class/backlight/intel_backlight
+sudo find -L /sys/class/backlight -maxdepth 2 -name '*brightness*'
+sudo echo 12000 > brightness
+cd device
+sudo echo 120000 > brightness
+echo 120000 > brightness
+cat actual_brightness
+cat intel_backlight
+cd backlight/
+cd class/
+cd fs
+cd /sys
+cd /sys.sysfs
+sudo apt-get update && sudo apt-get install libreoffice
+cat FYP\ Proposal\ Document\(Gull_22\ \&\ Usman_02\)\ -\ Copy.docx
+sudo snap install vlc
+sudo apt install ./code_1.74.3-1673284829_amd64.deb
+sudo apt install ./zoom_amd64.deb
+lsb_release -a
+ubuntu --version
+ls --version
+ls -l / | tail -n2
+cat hello2.txt
+cat <hello.txt>hello2.txt
+echo hello > hello.txt
+which echo
+echo $PATH
+date
+sudo dpkg -i google-chrome-stable_current_amd64.deb
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+run
+/bin/python3 /home/user62/firstpython.py
